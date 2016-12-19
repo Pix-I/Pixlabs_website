@@ -11,7 +11,9 @@ void setup()
   stroke(255,555,255);
   frameRate( 40 );
   dots = new Movingdots(9,500,150,screen.width-150,screen.height-500);
-}void draw(){
+}
+
+void draw(){
    background(0, 0, 120, 30);
    fill(255);
    dots.move();
@@ -68,7 +70,7 @@ void setup()
      maxY = tmaxY;
    }
    void show(){
-   ellipse(posX, posY, 5, 5);
+      ellipse(posX, posY, 5, 5);
    }
    void move(){
     if(orientationCD<0){

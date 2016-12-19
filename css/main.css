@@ -109,16 +109,18 @@ body {
     position: absolute;
     width: 400px;
     left: 40px;
+    top:10px;
     height:1000px;
 }
+
 
 #Intro .text{
 
     font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
     text-align: justify;
-    width: 340px;
+    width: 370px;
     position: absolute;
-    left: 10px;
+    left: 15px;
     top:50px;
     color: white;
 }
@@ -158,7 +160,7 @@ body {
     color: #4e4e86;
 }
 
-#CanvasStuff{
+.canvasContainer{
     position: absolute;
 }
 
